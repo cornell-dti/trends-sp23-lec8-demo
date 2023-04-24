@@ -9,9 +9,9 @@ type Props = {
 }
 
 const TaskItem = ({ task: { id, text, checked } }: Props) => {
+  // TODO
   const toggleTask = () => {
-    const taskDoc = doc(collection(db, "tasks"), id)
-    updateDoc(taskDoc, { checked: !checked })
+
   }
 
   // TODO: Delete task
